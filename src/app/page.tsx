@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Square } from './components';
+import Square from './components/Square/square';
 
 // winner condition
 const calculateWinner = (squares: string[]) => {
